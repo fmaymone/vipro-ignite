@@ -8,12 +8,12 @@ export default StyleSheet.create({
     backgroundColor: Colors.background
   },
   row: {
-    width: 100,
+    width: Metrics.screenWidth/2 - Metrics.doubleBaseMargin,
     height: 100,
     justifyContent: 'center',
     alignItems: 'center',
     margin: Metrics.baseMargin,
-    backgroundColor: Colors.fire,
+    backgroundColor: Colors.frost,
     borderRadius: Metrics.smallMargin
   },
   sectionHeader: {
@@ -26,13 +26,13 @@ export default StyleSheet.create({
   boldLabel: {
     fontWeight: 'bold',
     alignSelf: 'center',
-    color: Colors.snow,
+    color: Colors.text,
     textAlign: 'center',
     marginBottom: Metrics.smallMargin
   },
   label: {
     alignSelf: 'center',
-    color: Colors.snow,
+    color: Colors.text,
     textAlign: 'center'
   },
   listContent: {

@@ -14,8 +14,8 @@ import styles from './Styles/APITestingScreenStyles'
 const endpoints = [
   { label: 'Github Root', endpoint: 'getRoot' },
   { label: 'Github Rate Limit', endpoint: 'getRate' },
-  { label: 'Search User (gantman)', endpoint: 'getUser', args: ['gantman'] },
-  { label: 'Search User (skellock)', endpoint: 'getUser', args: ['skellock'] }
+  { label: 'Search User (fmaymone)', endpoint: 'getUser', args: ['fmaymone'] }
+  
 ]
 
 export default class APITestingScreen extends React.Component {
